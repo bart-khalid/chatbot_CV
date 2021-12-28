@@ -1,0 +1,5 @@
+streamlit
+numpy
+tflearn
+pickle
+nltk

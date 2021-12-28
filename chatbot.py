@@ -18,9 +18,7 @@ st.set_page_config(
 def sidebar():
         with st.spinner('Wait for it...'):
             time.sleep(0.2)
-
-            l = st.session_state.conversation
-           
+            l = st.session_state.conversation_rev
             for i,j in enumerate(l):
 
                 if "--- ***** ---" in j:

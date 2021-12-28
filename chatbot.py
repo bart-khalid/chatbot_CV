@@ -84,7 +84,7 @@ with col2:
         st.markdown(f'<h3 style="color:#D8B6A4;text-align: center">{"Start talking ..."}</h3>', unsafe_allow_html=True)
         with st.form(key = "myinp", clear_on_submit = True) :
             inp = st.text_input("Your question :", placeholder="How are you doing ?")
-            btn = st.form_submit_button("get result")
+            btn = st.form_submit_button("get answer")
         
         
         

@@ -21,7 +21,7 @@
         },
         {"tag": "need",
          "patterns": ["what are you looking for ?", "what do you need ?", "how can I help you ?", "what do you want ?","how can I help","I what could we help you?"],
-         "responses": ["Happy to ask, I'm looking for an end of studies internship of 4 to 6 months starting February 2022 "]
+         "responses": ["I'am glad you asked, I'm looking for an end of studies internship of 4 to 6 months starting February 2022 "]
         },
         {"tag": "about",
          "patterns": ["tell me about you ?", "who are you ?", "I want to know you", "about you", "introduce your self"],

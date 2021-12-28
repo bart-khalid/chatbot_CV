@@ -2,6 +2,7 @@ import numpy as np
 import tflearn
 import pickle
 import nltk
+nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 import random

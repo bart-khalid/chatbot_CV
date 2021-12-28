@@ -74,7 +74,6 @@ with col1:
         st.sidebar.header("Conversation history")
         
         clear = st.sidebar.button("Clear Conversation")
-        noConYet()
         
             
 

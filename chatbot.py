@@ -20,13 +20,7 @@ def sidebar():
             time.sleep(0.2)
 
             l = st.session_state.conversation
-            l.reverse()
-            for i,j in enumerate(l):
-                if i%2 != 0:
-                    tem = l[i]
-                    l[i] = l[i-1]
-                    l[i-1] = tem
-
+           
             for i,j in enumerate(l):
 
                 if "--- ***** ---" in j:
@@ -51,14 +45,15 @@ def sidebar():
 def noConYet():
      if len(st.session_state.conversation)==0 :
           st.sidebar.write("*** No conversation yet ***")
-
+      
 # start
 st.markdown(f'<h1 style="color:#EA5C2B;text-align: center">{"BARTAOUCH KHALID CHATBOT"}</h1>', unsafe_allow_html=True)
 
 col1, col2 = st.columns([8, 8])
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
-
+if "conversation_rev" not in st.session_state:
+    st.session_state.conversation_rev = []
 
 with col1:
     with st.spinner('Wait for it...'):
@@ -112,7 +107,10 @@ with col2:
                 time.sleep(0.2)
                 result = fct.getResponse(model, labels, inp, words)
                 st.session_state.conversation.append(inp)
-                st.session_state.conversation.append(result)
+                st.session_state.conversation.append(result)           
+                #reversed_conve
+                st.session_state.conversation_rev.insert(0, inp)
+                st.session_state.conversation_rev.insert(1, result)
                 
                 for i,j in enumerate(st.session_state.conversation[-2:]):
 

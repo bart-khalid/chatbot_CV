@@ -46,6 +46,11 @@ def sidebar():
                 st.sidebar.write(j)
                 if i%2 != 0:
                     st.sidebar.write(":heavy_minus_sign:" * 15)    
+                    
+                    
+def noConYet():
+     if len(st.session_state.conversation)==0 :
+          st.sidebar.write("*** No conversation yet ***")
 
 # start
 st.markdown(f'<h1 style="color:#EA5C2B;text-align: center">{"BARTAOUCH KHALID CHATBOT"}</h1>', unsafe_allow_html=True)
@@ -69,8 +74,8 @@ with col1:
         st.sidebar.header("Conversation history")
         
         clear = st.sidebar.button("Clear Conversation")
-        if (len(st.session_state.conversation)==0) :
-            st.sidebar.write("*** No conversation yet ***")
+        noConYet()
+        
             
 
 
@@ -125,5 +130,7 @@ with col2:
                         st.markdown(f'<p style="color:#B85252">{"Khalid (Bot) : "}</p>', unsafe_allow_html=True)  
                     st.write(j)
         sidebar()
+        noConYet()
+     
                 
     

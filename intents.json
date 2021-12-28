@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "ask",
+        "patterns": ["how are you ?", "how you doing?", "how do you feel?"],
+        "responses": ["Thank you for asking, I'm fine, hope you're doing well too !"]
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Khalid", "how old are you", "what is the age of khalid", "what is your age", "age?"],
+         "responses": ["I am 23 years old!", "23 years young!"]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "your name ?", "how  can i call you?"],
+         "responses": ["You can call me KHALID.", "I'm Khalid BARTAOUCH", "My name is Khalid BARTAOUCH"]
+        },
+        {"tag": "need",
+         "patterns": ["what are you looking for ?", "what do you need ?", "how can I help you ?", "what do you want ?","how can I help","I what could we help you?"],
+         "responses": ["Happy to ask, I'm looking for an end of studies internship of 4 to 6 months starting February 2022 "]
+        },
+        {"tag": "about",
+         "patterns": ["tell me about you ?", "who are you ?", "I want to know you", "about you", "introduce your self"],
+         "responses": ["I'm a Second year student of a master's degree in Data Science and Decision Support at the Faculty of Sciences and Technologies, in Morocco. I graduated in distributed computer systems after I'd had my baccalaureate in 2017. I am passionate about computer science."]
+        },
+        {"tag": "skills",
+         "patterns": ["what can you do ?", "what skills do you have ?", "your skills", "skills?"],
+         "responses": ["MY TECHNICAL SKILLS --- ***** --- *** Programming Languages *** : PYTHON, R, JAVA, C, JAVASCRIPT, PHP. *** Data Science Skills *** : Machine Learning, Deep learning, Artificial Intelligence, Data Manipulation, DataVisualization, Business Intelligence, Data mining, Web scraping, *** Machine Learning and Deep Learning *** : Tensorflow, sklearn, NLP, ** models ** : SVM, KNN, Decesion Tree, Random Forest, K-means, PCA, RNN, CNN... *** Data processing *** : numpy, pandas. *** Data visualization *** : matplotlib, tableau. *** Web Development *** : Spring Boot, Angular, Laravel, Mysql, Nosql."]
+        },
+        {"tag": "living",
+         "patterns": ["where are you from ?", "where do you live ?", "living ?"],
+         "responses": ["I'm from morocco and I live in Marrakech"]
+        },
+        {"tag": "contact",
+         "patterns": ["how can I contact you ?", "what is your phone ?", "what is your email ?", "your social accounts ?", "github, LinkedIn ?", "how to contact you", "your contact","how could we contact you ?"],
+         "responses": ["YOU CAN CONTACT ME VIA --- ***** --- ** email ** : bartyouger@gmail.com, ** TEL ** : +212699816258, ** LinkedIn ** : bartaouch khalid, ** github ** : bart-khalid, ** portfolio ** : https://bartaouch-khalid.me"]
+        },
+        {"tag": "experience",
+         "patterns": ["your professional experiences?", "what are the projects you worked in ?", "experiences?"],
+         "responses": ["MY PROFESSIONAL EXPERIENCES --- ***** --- *** Full-stack Developer (end of studies internship) at University Cadi Ayyad (04/2020 - 08/2020) *** : In this period, I developed a responsive web application for maintenance management, using Spring boot to create a Rest API and Angular 8 for the front-end part, I deployed this app in a free domain as well as a free hosting, which are offered by Herokuapp, Link to the app : https://entretienfst.herokuapp.com"]
+        },
+        {"tag": "projects",
+        "patterns": ["what are the projects you worked in ?", "projects?", "your academic projects?"],
+        "responses": ["MY ACADEMIC PROJECTS --- ***** --- *** Chatbot application (05/2021 - 06/2021) *** : We were a team of three, we built a chatbot application designed to answer any question about machine learning mainly, and also to assist a user in simple every day questions, like historical or famous people and places, or entertain him with jokes or play him a song, link to the app : https://github.com/bart-khalid/chatBot  .  *** Sentiment Detector, face recognition and chatbot (04/2021 - 06/2021) *** : we have created a Chatbot that interacts with the identified person based on his detected feeling, link to the app : https://github.com/bart-khalid/RFASC ."]
+        },
+        {"tag": "motivation",
+         "patterns": ["your motivation?", "your background", "motivation"],
+         "responses": ["Being a data scientist was the goal I set my eyes on since my first years at the faculty. During my studies, I was passionate about everything that is related with computer science, and after obtaining my bachelor's degree, I decided to become a data scientist, because nowadays, this field constitutes a real wealth for companies, around which gravitate some fundamental stakes of knowledge extraction from raw data, and then its exploitation in decision making. During my studies, I was able to acquire essential knowledge in data extraction, data manipulation and data visualization. A direct application of different techniques of artificial intelligence, data mining, machine learning, deep learning, and business intelligence as well as web development. Through several projects, I was able to see things on the professional field and put into practice all my skills and my technical knowledge acquired during my university career."]
+        },
+        {"tag": "quality",
+         "patterns": ["your qualities?", "your strengths ?", "Tell me about your strengths ?","Why should we hire you?", "What are your strengths ?", "what are your strong points ?", "soft skills ?"],
+         "responses": ["I think one of my greatest strengths is a problem solver. I have the ability to see a situation from different perspectives and I can get my work done even in the face of difficult obstacles. I have the ability to work under pressure and I'm very Team-oriented, I love collaborating with other people."]
+        },
+        {"tag": "other",
+         "patterns": ["ok","somthing else","more","others","weakness","play","football","extra","help","poqwpowrifjcnncmzxmnxkalsdhf"],
+         "responses": ["Sorry I didn't get it, please try another question !"]
+        }
+   ]
+}

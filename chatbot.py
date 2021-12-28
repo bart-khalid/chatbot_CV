@@ -97,7 +97,7 @@ with col2:
             with st.spinner('Wait for it...'):
                 time.sleep(0.2)
                 st.session_state.conversation = []
-                st.sidebar.write("*** No conversation yet ***")
+              
         
 
         if (exmple_1):

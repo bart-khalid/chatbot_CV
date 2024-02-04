@@ -1,7 +1,6 @@
-streamlit
-numpy
-tensorflow
-tflearn
+numpy==1.26.3
+tensorflow==2.15.0
+tflearn==0.5.0
 nltk
 altair<5
 pillow==9.5.0

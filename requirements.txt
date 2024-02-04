@@ -4,3 +4,4 @@ git+https://github.com/MihaMarkic/tflearn.git@fix/is_sequence_missing
 nltk
 altair<5
 pillow==9.5.0
+regex

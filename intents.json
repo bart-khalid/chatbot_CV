@@ -9,11 +9,11 @@
         },
         {"tag": "ask",
         "patterns": ["how are you ?", "how you doing?", "how do you feel?"],
-        "responses": ["Thank you for asking, I'm fine, hope you're doing well too !"]
+        "responses": ["Thank you for asking, I'm fine, hope you're doing well too !", "I am donig good, hope the same for you! How Can I help you ?"]
         },
         {"tag": "age",
          "patterns": ["how old", "how old is Khalid", "how old are you", "what is the age of khalid", "what is your age", "age?"],
-         "responses": ["I am 23 years old!", "23 years young!"]
+         "responses": ["I am 25 years old!", "25 years young :)"]
         },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "your name ?", "how  can i call you?"],
@@ -21,15 +21,15 @@
         },
         {"tag": "need",
          "patterns": ["what are you looking for ?", "what do you need ?", "how can I help you ?", "what do you want ?","how can I help","I what could we help you?"],
-         "responses": ["I'm glad you asked, I'm looking for an end of studies internship of 4 to 6 months starting February 2022 "]
+         "responses": ["If you asked me 2 years ago I woud say that: I'm looking for an end of studies internship of 4 to 6 months starting February 2022,\n but right now I am looking for a new challenging adventure in the field of Data, if you have any suggestion feel free to connect with me via email : kh.bartaouch@gmail.com"]
         },
         {"tag": "about",
          "patterns": ["tell me about you ?", "who are you ?", "I want to know you", "about you", "introduce your self"],
-         "responses": ["I'm a Second year student of a master's degree in Data Science and Decision Support at the Faculty of Sciences and Technologies, in Morocco. I graduated in distributed computer systems after I'd had my baccalaureate in 2017. I am passionate about computer science."]
+         "responses": ["Passionate about transforming complex data into actionable solutions, I am a Data Scientist at ALTEN MAROC and also serve as a Data Science & Python Trainer at BINATNADATA. \nCurrently pursuing my PhD in Data Science at UCA, I bring a strong background in data science and decision support. \n\n*Expertise*: \n- Data Manipulation & Visualization \n- Predictive Modeling \n- Turning Data Complexity into Insights \n\n*Projects*: \n\nI have successfully worked on various projects, specializing in data manipulation, visualization, and building predictive models. My hands-on experience enables me to navigate through intricate datasets, extracting valuable insights that drive informed decision-making. \n\n*Education*: \n\nI hold a degree in Data Science and Decision Support, providing me with a solid foundation for tackling diverse challenges in the data-driven landscape. \n\n*Let's Connect*: \n\nI am dedicated to helping others master data skills and am open to collaborations and networking opportunities. \n\nLet's connect and explore how we can leverage data to make a meaningful impact together! \n\n*Languages*: \n\nFrench, English, German, Tamazight and Arabic."]
         },
         {"tag": "skills",
          "patterns": ["what can you do ?", "what skills do you have ?", "your skills", "skills?"],
-         "responses": ["MY TECHNICAL SKILLS --- ***** --- *** Programming Languages *** : PYTHON, R, JAVA, C, JAVASCRIPT, PHP. *** Data Science Skills *** : Machine Learning, Deep learning, Artificial Intelligence, Data Manipulation, DataVisualization, Business Intelligence, Data mining, Web scraping, *** Machine Learning and Deep Learning *** : Tensorflow, sklearn, NLP, ** models ** : SVM, KNN, Decesion Tree, Random Forest, K-means, PCA, RNN, CNN... *** Data processing *** : numpy, pandas. *** Data visualization *** : matplotlib, tableau. *** Web Development *** : Spring Boot, Angular, Laravel, Mysql, Nosql."]
+         "responses": ["MY TECHNICAL SKILLS :\n\nData Analysis, Statistical Analysis, Predictive Modeling, Machine Learning, Data Visualization, Data Mining, Computer Vision, Deep Learning, Natural Language Processing, SQL, MySQL, Oracle DB, Git, GitHub. \n\nMY Soft Skills:\n\nAbility to multitask, Ability toadapt quickly, Ability to work in pressure, Ability to work autonomously, Ability to document, explain, and present complex ideas, Excellent Ability to retain new information, Speed in searching for solutions, Critical thinking and problem solving."]
         },
         {"tag": "living",
          "patterns": ["where are you from ?", "where do you live ?", "living ?"],
@@ -37,15 +37,15 @@
         },
         {"tag": "contact",
          "patterns": ["how can I contact you ?", "what is your phone ?", "what is your email ?", "your social accounts ?", "github, LinkedIn ?", "how to contact you", "your contact","how could we contact you ?"],
-         "responses": ["YOU CAN CONTACT ME VIA --- ***** --- ** email ** : bartyouger@gmail.com, ** TEL ** : +212699816258, ** LinkedIn ** : bartaouch khalid, ** github ** : bart-khalid, ** portfolio ** : https://bartaouch-khalid.me"]
+         "responses": ["YOU CAN CONTACT ME VIA: \n\nEmail: kh.bartaouch@gmail.com, \n\nTEL : +212699816258, \n\nLinkedIn : bartaouch khalid, \n\ngithub: bart-khalid, \n\nPortfolio: https://bart-khalid.netlify.com"]
         },
         {"tag": "experience",
          "patterns": ["your professional experiences?", "what are the projects you worked in ?", "experiences?"],
-         "responses": ["MY PROFESSIONAL EXPERIENCES --- ***** --- *** Full-stack Developer (end of studies internship) at University Cadi Ayyad (04/2020 - 08/2020) *** : In this period, I developed a responsive web application for maintenance management, using Spring boot to create a Rest API and Angular 8 for the front-end part, I deployed this app in a free domain as well as a free hosting, which are offered by Herokuapp, Link to the app : https://entretienfst.herokuapp.com"]
+         "responses": ["\n\nPlease visit my linkedin account for updated Experiences : *BARTAOUCH KHALID*"]
         },
         {"tag": "projects",
         "patterns": ["what are the projects you worked in ?", "projects?", "your academic projects?"],
-        "responses": ["MY ACADEMIC PROJECTS --- ***** --- *** Chatbot application (05/2021 - 06/2021) *** : We were a team of three, we built a chatbot application designed to answer any question about machine learning mainly, and also to assist a user in simple every day questions, like historical or famous people and places, or entertain him with jokes or play him a song, link to the app : https://github.com/bart-khalid/chatBot  .  *** Sentiment Detector, face recognition and chatbot (04/2021 - 06/2021) *** : we have created a Chatbot that interacts with the identified person based on his detected feeling, link to the app : https://github.com/bart-khalid/RFASC ."]
+        "responses": ["The response is limited to MY ACADEMIC PROJECTS Only \n--- ***** --- *** Chatbot application (05/2021 - 06/2021) *** : We were a team of three, we built a chatbot application designed to answer any question about machine learning mainly, and also to assist a user in simple every day questions, like historical or famous people and places, or entertain him with jokes or play him a song, link to the app : https://github.com/bart-khalid/chatBot  .  \n\n*** Sentiment Detector, face recognition and chatbot (04/2021 - 06/2021) *** : we have created a Chatbot that interacts with the identified person based on his detected feeling, link to the app : https://github.com/bart-khalid/RFASC ."]
         },
         {"tag": "motivation",
          "patterns": ["your motivation?", "your background", "motivation"],

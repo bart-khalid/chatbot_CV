@@ -1,18 +1,18 @@
 import streamlit as st
 from PIL import Image
-import time
-from functions import Functions as fct
 
-im = Image.open("robot.png")
 # config
 st.set_page_config(
      page_title="BARTAOUCH Khalid Chatbot App",
-     page_icon=im,
+     page_icon=Image.open("robot.png"),
      layout="wide",
      menu_items={
          'About': "# BARTAOUCH KHALID CHATBOT APP. This is a CHATBOT app!"
      }
  )
+
+import time
+from functions import Functions as fct
 
 # function 
 def sidebar():
@@ -61,7 +61,7 @@ with col1:
         st.info("Example of questions you could type (click on any button to see the result)")
         exmple_1 = st.button("Who are you ?")
         exmple_2 = st.button("What are you looking for ?")
-        exmple_3 = st.button("Your academic projects !")
+        exmple_3 = st.button("What are your projects !")
 
     
         st.sidebar.header("Conversation history")
@@ -99,7 +99,7 @@ with col2:
         elif(exmple_2):
             inp = "What are you looking for ?"  
         elif(exmple_3):
-            inp = "Your academic projects"
+            inp = "What are your projects !"
  
         if inp != "":
             with st.spinner('Wait for it...'): 

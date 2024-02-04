@@ -3,3 +3,5 @@ numpy
 tensorflow
 tflearn
 nltk
+altair<5
+pillow=9.5.0

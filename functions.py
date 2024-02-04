@@ -1,12 +1,19 @@
+import streamlit as stt
 import numpy as np
 import tflearn
 import pickle
 import nltk
-nltk.download('punkt')
 from nltk.stem.lancaster import LancasterStemmer
-stemmer = LancasterStemmer()
 import random
 import json
+
+@stt.cache_resource
+def load():
+    nltk.download('punkt')
+    stemmer = LancasterStemmer()
+    return stemmer
+
+stemmer = load()
 
 class Functions :
 

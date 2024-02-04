@@ -4,4 +4,4 @@ tensorflow
 tflearn
 nltk
 altair<5
-pillow=9.5.0
+pillow==9.5.0

@@ -3,5 +3,5 @@ tensorflow==2.15.0
 git+https://github.com/MihaMarkic/tflearn.git@fix/is_sequence_missing
 nltk
 altair<5
-pillow==9.5.0
+Pillow==9.5.0
 regex

@@ -1,5 +1,7 @@
 import streamlit as stt
 import numpy as np
+import PIL
+PIL.Image.ANTIALIAS = PIL.Image.LANCZOS
 import tflearn
 import pickle
 import nltk
